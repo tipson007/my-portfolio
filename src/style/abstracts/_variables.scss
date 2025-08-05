@@ -1,14 +1,25 @@
 // COLORS
-$primary-color: #2071ab;
-$secondary-color: #00cdac;
+$primary-color: #2071ab !default;
+$secondary-color: #00cdac !default;
 
-$white-color: #fff;
+$white-color: #fff !default;
 
-$dark-grey: #333333;
+$dark-grey: #333333 !default;
 
-$dark-blue-text: #272341; // For Headings
+$dark-blue-text: #272341 !default; // For Headings
 
 // FONT SIZE
-$default-font-size: 1.6rem;
-$big-font-size: 4rem;
-$mid-font-size: 2.5rem;
+$default-font-size: 1.6rem !default;
+$big-font-size: 4rem !default;
+$mid-font-size: 2.5rem !default;
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  whiteColor: $white-color;
+  darkGrey: $dark-grey;
+  darkBlueText: $dark-blue-text;
+  defaultFontSize: $default-font-size;
+  bigFontSize: $big-font-size;
+  midFontSize: $mid-font-size;
+}

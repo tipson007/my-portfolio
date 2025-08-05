@@ -1,8 +1,12 @@
 // Section
+@forward '../abstracts/mixins';
+@use '../abstracts/mixins' as m;
+@use '../abstracts/variables' as v;
+
 section {
   padding: 5rem 0rem;
 
-  @include respond(phone) {
+  @include m.respond(phone) {
     border: none;
     padding-left: 1rem;
     padding-right: 1rem;

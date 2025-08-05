@@ -1,3 +1,7 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+@use 'sass:color';
+
 #projects {
   background-color: $white-color;
   color: $dark-blue-text;

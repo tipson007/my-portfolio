@@ -1,4 +1,7 @@
 /* Call to Action Button */
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
 .cta-btn {
   display: inline-block;
   position: relative;
@@ -28,6 +31,7 @@
     $primary-color 0%,
     $secondary-color 100%
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid transparent;

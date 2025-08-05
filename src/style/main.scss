@@ -1,18 +1,24 @@
-@import './vendors/bootstrap.scss';
+@use "sass:color";
 
-@import './abstracts/mixins';
-@import './abstracts/variables';
-@import './abstracts/helpers';
+// Configuration
+@use "./abstracts/variables" as v;
+@use "./abstracts/mixins" as m;
+@use "./abstracts/helpers" as h;
 
-@import './base/base';
-@import './base/typography';
+// Base styles
+@use './base/base';
+@use './base/typography';
 
-@import './components/buttons';
+// Components
+@use './components/buttons';
+@use './layout/footer';
+@use './layout/sections';
 
-@import './layout/footer';
-@import './layout/sections';
+// Sections
+@use './sections/about';
+@use './sections/contact';
+@use './sections/hero';
+@use './sections/projects';
 
-@import './sections/about';
-@import './sections/contact';
-@import './sections/hero';
-@import './sections/projects';
+// Bootstrap
+@use "bootstrap/scss/bootstrap";
