@@ -1,2 +1,187 @@
-node_modules/
+# =============================================================================
+# TERRAFORM FILES
+# =============================================================================
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# .tfvars files (contain sensitive data like passwords, private keys)
+*.tfvars
+
+# Terraform plan files
+*.tfplan
+*tfplan*
+
+# Override files (usually used to override resources locally)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Crash log files
+crash.log
+crash.*.log
+
+# =============================================================================
+# PYTHON FILES
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Lambda specific
+lambda_functions/package/
+lambda_functions.zip
+lambda-package.zip
+package/
+
+# =============================================================================
+# AWS & CLOUD FILES
+# =============================================================================
+# AWS credentials and config
+.aws/
+aws-credentials.txt
+*.pem
+*.key
+
+# Serverless directories
+.serverless/
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json
+.azure/
+
+# =============================================================================
+# IDE AND EDITOR FILES
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# =============================================================================
+# LOGS AND TEMPORARY FILES
+# =============================================================================
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary folders
+tmp/
+temp/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# =============================================================================
+# NODE.JS / JAVASCRIPT
+# =============================================================================
+# Dependencies
+node_modules/
+.npm
+.eslintcache
+
+# Webpack
+.webpack/
+
+# Parcel-bundler cache
+.cache
+.parcel-cache
+
+# =============================================================================
+# ENVIRONMENT FILES
+# =============================================================================
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =============================================================================
+# ARCHIVE AND BACKUP FILES
+# =============================================================================
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# History files
+history/
+*.history
+
+# =============================================================================
+# PROJECT SPECIFIC
+# =============================================================================
+# Strands specific (if any cache files)
+.strands/
+strands-cache/
